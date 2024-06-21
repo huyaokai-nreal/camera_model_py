@@ -1,0 +1,12 @@
+[project]
+name = "camera_model"
+version = "0.0.2"
+requires-python = ">=3.8"
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml, so you do
+# NOT have to specify this line.
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["python"]
