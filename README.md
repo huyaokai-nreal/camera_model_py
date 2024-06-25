@@ -4,7 +4,6 @@
 # 1.install pybind11
 pip install "pybind11[global]"
 # 2. enable python build
-# set BUILD_PYTHON ON in CMakeLists.txt
 # set PYTHON_VERSION in python/camera_model/CMakeLists.txt
 # 3. build dynamic lib
 ./compile.sh  -c linux install

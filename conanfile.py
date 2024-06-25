@@ -18,5 +18,4 @@ class Project(ConanFile):
     # difference between project:
     def requirements(self):
         self.requires("eigen/3.3.7", transitive_libs=True)
-        self.requires("glog/0.6.0", transitive_libs=True)
         self.requires("camera_model/develop", transitive_libs=True)
